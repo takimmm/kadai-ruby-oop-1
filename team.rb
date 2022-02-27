@@ -13,28 +13,22 @@ class Team
   end
 
   def show_team_result
-    puts "#{self.name}の2020年の成績は#{self.win}勝#{self.lose}敗#{self.draw}分け、勝率は#{self.calc_win_rate
+    puts "#{self.name} の2020年の成績は #{self.win}勝 #{self.lose}敗 #{self.draw}分け、勝率は #{self.calc_win_rate
     }です。"
   end
 end
 
-Team_A = Team.new('Giants', 67, 45, 8)
-Team_B = Team.new('Tigers', 60, 53, 7)
-Team_C = Team.new('Dragons', 60, 55, 5)
-Team_D = Team.new('BayStars', 56, 58, 6)
-Team_E = Team.new('Carp', 52, 56, 12)
-Team_F = Team.new('Swallows', 41, 69, 10)
+  
+team_a = Team.new('Giants', 67, 45, 8)
+team_b = Team.new('Tigers', 60, 53, 7)
+team_c = Team.new('Dragons', 60, 55, 5)
+team_d = Team.new('BayStars', 56, 58, 6)
+team_e = Team.new('Carp', 52, 56, 12)
+team_f = Team.new('Swallows', 41, 69, 10)
 
-Team_A.show_team_result
-Team_B.show_team_result
-Team_C.show_team_result
-Team_D.show_team_result
-Team_E.show_team_result
-Team_F.show_team_result
-
-p Team_A
-p Team_B
-p Team_C
-p Team_D
-p Team_E
-p Team_F
+team_a.show_team_result
+team_b.show_team_result
+team_c.show_team_result
+team_d.show_team_result
+team_e.show_team_result
+team_f.show_team_result
